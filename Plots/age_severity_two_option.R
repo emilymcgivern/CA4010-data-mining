@@ -1,0 +1,1 @@
+boxplot(d$Age_of_Casualty[d$Casualty_Severity == 1], d$Age_of_Casualty[d$Casualty_Severity == 2 | 3], col=c("red", "green"), main="Age of Casualty vs Severity of Accident", names=c("Fatal", "Non-Fatal"), ylab="Age")

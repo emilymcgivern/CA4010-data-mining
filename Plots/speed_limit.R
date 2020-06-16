@@ -1,0 +1,1 @@
+boxplot(Speed_limit~Accident_Severity,data=d,names=c("Fatal","Serious","Slight"), col=(c("red", "orange", "green")), main="Speed Limit vs Severity of Accident", xlab="Severity", ylab="Speed Limit")

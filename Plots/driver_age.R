@@ -1,0 +1,1 @@
+boxplot(Age_of_Driver~Accident_Severity,data=d,names=c("Fatal","Serious","Slight"), col=(c("red", "orange", "green")), main="Age of Casualty vs Severity of Accident", xlab="Severity", ylab="Age")

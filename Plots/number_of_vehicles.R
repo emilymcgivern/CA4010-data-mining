@@ -1,0 +1,1 @@
+boxplot(Number_of_Vehicles~Accident_Severity,data=d,names=c("Fatal","Serious","Slight"), col=(c("red", "orange", "green")), main="Number of Vehicles vs Severity of Accident", xlab="Severity", ylab="Number of Vehicles")

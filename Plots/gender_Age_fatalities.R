@@ -1,0 +1,1 @@
+boxplot(Age_of_Casualty~Sex_of_Casualty,data=d,names=c("Male","Female"), col=(c("blue", "pink")), main="Casualty Gender vs Age for fatal accidents", xlab="Gender", ylab="Age", subset = Casualty_Severity==1)

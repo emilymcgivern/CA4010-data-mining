@@ -1,0 +1,1 @@
+boxplot(d$Age_of_Casualty, main="Age of Casualties involved in accidents", ylab="Age")

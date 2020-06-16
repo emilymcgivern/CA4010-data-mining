@@ -1,0 +1,1 @@
+boxplot(Day_of_Week~Accident_Severity,data=d,names=c("Fatal","Serious","Slight"), col=(c("red", "orange", "green")), main="Day of the week vs Severity of Accident", xlab="Severity", ylab="Day of week")
